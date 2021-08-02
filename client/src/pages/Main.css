@@ -1,0 +1,11 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.chartContainer {
+  margin: auto;
+  padding: 15px;
+  width: 50%;
+}

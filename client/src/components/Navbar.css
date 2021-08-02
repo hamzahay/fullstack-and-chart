@@ -1,0 +1,40 @@
+.navbar {
+  background-color: rgb(92, 143, 201);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+  box-shadow: 1px 2px 4px gray;
+}
+
+.navbar h2 {
+  color: white;
+}
+
+.rightContainer {
+  display: flex;
+  margin: auto 0px;
+  gap: 10px;
+}
+
+.rightContainer span {
+  color: white;
+}
+
+.navbar button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: 0.03s ease;
+  box-shadow: 1px 2px 3px gray;
+}
+
+.navbar button:hover {
+  transform: scale(1.05);
+  transition: 0.03s ease;
+}
+
+.logoutBtn {
+  background-color: rgb(245, 65, 65);
+}
